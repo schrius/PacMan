@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pac.GradeGuyController">
+   <children>
+      <VBox alignment="CENTER" layoutX="400.0" layoutY="300.0" prefHeight="200.0" prefWidth="200.0" spacing="20.0">
+         <children>
+            <Button fx:id="StartButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#StartButtonListener" prefHeight="30.0" prefWidth="120.0" text="Start Game" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="HighScoreButton" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#HighScoreButtonListener" prefHeight="30.0" prefWidth="120.0" text="High Score" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="CreditButton" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#CreditButtonListener" prefHeight="30.0" prefWidth="120.0" text="Credit" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+            <Button fx:id="ExitButton" contentDisplay="CENTER" layoutX="10.0" layoutY="37.0" mnemonicParsing="false" onAction="#ExitButtonListener" prefHeight="30.0" prefWidth="120.0" text="Exit" textFill="BLUE">
+               <font>
+                  <Font size="14.0" />
+               </font></Button>
+         </children>
+      </VBox>
+      <Label fx:id="TitleLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="50.0" prefHeight="200.0" prefWidth="600.0" text="Grade Guy" textFill="#1e0eff">
+         <font>
+            <Font name="System Bold" size="96.0" />
+         </font>
+      </Label>
+      <Circle fill="#67cdebfc" layoutX="750.0" layoutY="510.0" radius="10.0" stroke="#04abff" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="W" layoutX="744.0" layoutY="502.0" text="W" textFill="WHITE" />
+      <Circle fill="#67cdebfc" layoutX="722.0" layoutY="540.0" radius="10.0" stroke="#04abff" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="A" layoutX="718.0" layoutY="531.0" text="A" textFill="WHITE" />
+      <Circle fill="#67cdebfc" layoutX="750.0" layoutY="540.0" radius="10.0" stroke="#04abff" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="S" layoutX="746.0" layoutY="531.0" text="S" textFill="WHITE" />
+      <Circle fill="#67cdebfc" layoutX="780.0" layoutY="540.0" radius="10.0" stroke="#04abff" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label fx:id="D" layoutX="775.0" layoutY="531.0" text="D" textFill="WHITE" />
+      <Label fx:id="Ver" layoutX="245.0" layoutY="530.0" text="Ver 1.00" textFill="#003cff" />
+   </children>
+</AnchorPane>
